@@ -1,0 +1,40 @@
+.todo {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+    &__list-main{
+      background-color: #7dd8c6;
+      width: 350px;
+      height: 50px;
+      display: flex;
+      justify-content: space-around;
+        &__input {
+          margin-right: 20px;
+          height: 35px;
+          font-size: 18px;
+        }
+    }
+    &__list {
+      list-style: none;
+      font-size: 22px;
+      width: 40vh;
+        &__item {
+          padding: 10px 40px;
+          background-color: #1d665e;
+          font-weight: 500;
+          border: 1px solid black;
+          margin: 1px;
+          overflow-x: hidden;
+        }
+        &__item:hover {
+          background-color: #36b5a7;
+        }
+        &__item:active {
+          background-color: #f00;
+        }
+
+    }
+
+}
